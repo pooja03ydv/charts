@@ -1,0 +1,10 @@
+---
+repositories:
+  - name: charts
+    url: git+https://github.com/pooja03ydv/charts@bitnami/magento?ref=release
+
+releases:
+
+  - name: my-release
+    chart:  my-bitnami/magento
+    installed: true 
